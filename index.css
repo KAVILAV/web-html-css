@@ -1,0 +1,132 @@
+*{
+    background-color: whitesmoke;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: brown;
+}
+.header, .h1 {
+    background-color: darkmagenta;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 1500x;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.h1{
+    text-indent: 70px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.header1{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: darkmagenta;
+}
+.header1 > div{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: darkmagenta;
+    
+}
+.s, .s-1 , .s-2{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+.s-1{
+    background-color: darkmagenta;
+}
+.sub{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 500px;
+}
+.sub2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 1500px;
+}
+.sub1 > div{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+}
+.sub2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 23px;  
+    padding: 10px;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+}
+.p{
+    padding: 20px;
+    margin: 60px;
+    text-align: justify;
+}
+.footer{
+    background-color: darkmagenta;
+    color: white;
+}
+.s1{
+    background-color: darkmagenta;
+    color: white;
+}
+#i{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sug{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.h2{
+    margin: 50px;
+}
+.s-1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
